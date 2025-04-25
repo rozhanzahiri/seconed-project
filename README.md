@@ -1,7 +1,7 @@
 # seconed-project
 
 
-- [Demo Project](https://rozhanzahiri.github.io/First-Project/)
+- [Demo Project](https://rozhanzahiri.github.io/seconed-project/)
 
 - Developed by Rozhan Zahiri
 
