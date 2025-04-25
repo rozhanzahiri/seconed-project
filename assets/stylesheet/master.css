@@ -1,0 +1,537 @@
+/* https://bloom-fluid-demo.squarespace.com/ */
+/* https://hales-fluid-demo.squarespace.com/ */
+
+
+main {
+    width: 100%;
+    height: auto;
+
+    >.row {
+        >.top-head {
+            width: 100%;
+            height: 100vh;
+            background-image: url(../img/Woman+relaxed+on+couch+chatting+on+phone.jpg);
+            background-size: cover;
+            position: relative;
+
+            /* &::before {
+                content: '';
+                position: absolute;
+                display: flex;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(128, 128, 128, 0.183);
+            } */
+
+            >nav {
+                width: 100%;
+                height: 100px;
+                display: flex;
+
+                >* {
+                    height: 100px;
+                }
+
+                >section {
+                    width: 20%;
+                    font-size: 15px;
+
+                    >a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                >ul {
+                    width: 47%;
+                    display: flex;
+                    margin-left: 350px;
+
+                    >li {
+                        height: 100%;
+                        margin: 10px;
+
+                        &:nth-of-type(5) {
+                            margin-left: 310px;
+                        }
+
+                        >a {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: black;
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                >div {
+                    width: 180px;
+                    height: 60px;
+                    margin: 30px;
+
+                    >a {
+                        color: black;
+                    }
+                }
+            }
+
+            >div {
+                width: 100%;
+                height: 600px;
+
+                >h1 {
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 100px;
+                    font-size: 100px;
+                    padding: 300px 300px;
+                    color: white;
+                    font-weight: normal;
+                }
+            }
+
+            >.btn {
+                width: 200px;
+                height: 60px;
+                margin-left: 700px;
+                margin-top: 50px;
+
+                >a {
+                    display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                    color: black;
+                }
+
+            }
+        }
+
+        /* end top-head// */
+
+        >.sec1{
+            width: 100%;
+            height: 840px;
+            display: flex;
+            /* background-color: red; */
+            >*{
+                width: 50%;
+                height: 100%;
+            }
+            >div{
+                >*{
+                    margin-left: 150px;
+
+                }
+                >h2{
+                    width: 70%;
+                    font-size: 70px;
+                    font-weight: normal;
+                    margin-top: 200px;
+                }
+                >p{
+                    width: 70%;
+                    margin-top: 30px;
+                    line-height: 30px;
+                }
+                >.btn{
+                    margin-top: 60px;
+                    background-color: black;
+                    >a{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        color: white;
+                    }
+                }
+            }
+            >figure{
+                >img{
+                    width: 500px;
+                    height:700px;
+                    margin: 80px;
+                }
+            }
+        }
+        /* end sec1// */
+
+        >.sec2{
+            width: 100%;
+            height: 700px;
+            >div{
+                width: 95%;
+                height: 70%;
+                background-image: url(..//img/Overlapping+Bird+Of+Paradise+Leaves.jpg);
+                background-size: cover;
+                background-position: center;
+                margin: 100px auto;
+                >h2{
+                    font-weight: normal;
+                    font-size: 80px;
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    padding-top: 70px;
+                }
+                >div{
+                    display: flex;
+                    height: 250px;
+                    margin-top: 20px;
+                    >div{
+                        width: 100%;
+                        height: 100%;
+                        >*{
+                            color: white;
+                            display: flex;
+                            justify-content: center;
+                        }
+                        >h4{
+                            font-size: 20px;
+                            padding-top: 80px;
+                        }
+                        >p{
+                            padding: 15px;
+                            line-height: 25px;
+                            padding-left: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        /* end sec2// */
+
+        >.sec3{
+            width: 100%;
+            height: 450px;
+            >h2{
+                font-size: 45px;
+                font-weight: normal;
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+            }
+            >a{
+                font-size: 24px;
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+                color: black;
+                text-decoration: underline;
+            }
+            >div{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                >div{
+                    width: 33.333%;
+                    height: 100%;
+                    >h4{
+                        font-size: 30px;
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 130px;
+                    }
+                    >p{
+                        display: flex;
+                        justify-content: center;
+                        font-size: 30px;
+                        &:nth-of-type(2){
+                            padding: 30px;
+                            font-size:15px;
+                            line-height: 30px;
+                        }
+                    }
+                    >.btn{
+                        width: 150px;
+                        background-color: black;
+                        margin-top: 40px;
+                        margin-left: 180px;
+                        transition: .4s;
+                       >a{
+                        color: white;
+                        /* &:hover{
+                            background-color: rgb(156, 152, 152);
+                        } */
+                       }
+                    }
+                }
+            }
+        }
+        /* end sec3// */
+        >.sec4{
+            width: 100%;
+            height: 800px;
+            >div{
+                width: 100%;
+                height: 70%;
+                background-image: url(../img/Woman+sitting+on+couch+reading+on+laptop.jpg);
+                background-size: cover;
+                background-position: center;
+                margin-top: 13%;
+                position: relative;
+                /* &::before{
+                    content: '';
+                    position: absolute;
+                    display: flex;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(207, 25, 25, 0.537);
+                } */
+                 >*{
+                    margin-left: 40px;
+                    /* margin-top: 100px; */
+                 }
+                 >h2{
+                    width: 40%;
+                    font-size: 40px;
+                    color: white;
+                    font-weight: normal;
+                    padding-top: 170px;
+                 }
+                 >.btn{
+                    margin: 50px;
+                    width: 270px;
+                    height: 70px;
+                    >a{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        color: black;
+                    }
+                 }
+            }
+            
+        }
+        /* end sec4// */
+        >.sec5{
+            width: 100%;
+            height: 130vh;
+            display: grid;
+            grid-template-rows: repeat(18,1fr);
+            grid-template-columns: repeat(15,1fr);
+            >div{
+                &:nth-of-type(1){
+                    grid-area: 1/1/span 2/ span 15;
+                    >h2{
+                        font-size:40px;
+                        font-weight: normal;
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 25px;
+                    }
+                }
+                &:nth-of-type(2){
+                    grid-area:3 /1/span 8/span 10;
+                    >section{
+                        height: 20%;
+                        display: flex;
+                        >h2{
+                            font-size: 40px;
+                            font-weight: normal;
+                            padding-left: 60px;
+                            padding-top: 50px;
+                        }
+                        >p{
+                            padding-top: 60px;
+                            padding-left: 31%;
+                        }
+                    }
+                    >figure{
+                        width: 100%;
+                        height:80%;
+                        >img{
+                            width: 70%;
+                            height: 80%;
+                            object-fit: cover;
+                            padding-left: 60px;
+                        }
+                        >figcaption{
+                            width: 70%;
+                            padding-left: 60px;
+                            padding-top: 30px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+                &:nth-of-type(3){
+                    grid-area: 3/ 11/span 9/span 5 ;
+                    >section{
+                        height: 20%;
+                        display: flex;
+                        >*{
+                            margin-top: 100px;
+                        }
+                        >h2{
+                            font-size: 40px;
+                            font-weight: normal;
+                            padding-top: 50px;
+                        }
+                        >p{
+                            padding-top: 60px;
+                            padding-left: 55%;
+                        }
+                    }
+                    >figure{
+                        width: 100%;
+                        height:60%;
+                        >img{
+                            width: 100%;
+                            height: 80%;
+                            object-fit: cover;
+                            margin-top: 110px;
+                        }
+                        >figcaption{
+                            width: 100%;
+                            padding-top: 10px;
+                        }
+                    }
+                }
+                &:nth-of-type(4){
+                    grid-area: 11/1/span 8/span 10;
+                    margin-left: 80px;
+                    >section{
+                        height: 20%;
+                        display: flex;
+                        margin-top: 40px;
+                        >h2{
+                            font-size: 40px;
+                            font-weight: normal;
+                            padding-left: 60px;
+                            padding-top: 50px;
+                        }
+                        >p{
+                            padding-top: 60px;
+                            padding-left: 40%;
+                        }
+                    }
+                    >figure{
+                        width: 100%;
+                        height:60%;
+                        >img{
+                            width: 70%;
+                            height: 80%;
+                            object-fit: cover;
+                            padding-left: 60px;
+                        }
+                        >figcaption{
+                            width: 70%;
+                            padding-left: 60px;
+                            padding-top: 30px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+                &:nth-of-type(5){
+                    grid-area: 12/11/span 7/span 5;
+                    >p{
+                        width: 90%;
+                        margin-top: 200px;
+                        font-size: 25px;
+                    }
+                    >.btn{
+                        margin-top: 20px;
+                        background-color: black;
+                        width: 300px;
+                        
+                        >a{
+                            display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+        /* end sec5// */
+        >.sec6{
+            width: 100%;
+            height: 500px;
+            background-image: url(..//img/flower.jpg);
+            background-size: cover;
+            background-position: center;
+            margin-top: 100px;
+            >h2{
+                color: white;
+                font-weight: normal;
+                display: flex;
+                justify-content: center;
+                font-size: 80px;
+                margin-top: 200px;
+                
+            }
+            >p{
+                display: flex;
+                justify-content: center;
+                color: white;
+                font-size: 30px;
+                padding-top: 20px;
+            }
+            >.btn{
+                width: 300px;
+                margin-left: 600px;
+                margin-top: 20px;
+                >a{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: black;
+                }
+            }
+        }
+        /* end sec6// */
+        >.sec7{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            >div{
+                width: 50%;
+                >h2{
+                    margin-top: 50px;
+                    margin-left: 40px;
+                }
+                >p{
+                    margin-top: 150px;
+                    margin-left: 40px;
+                }
+                >ul{
+                    margin-top: 50px;
+                    >li{
+                        padding-left: 500px;
+                        margin-top: 5px;
+                        >a{
+                            color: black;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        /* end sec7// */
+    }
+}
